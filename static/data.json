@@ -1,0 +1,73 @@
+{
+  "head": [
+    {
+      "order": 0,
+      "row": [
+        { "name": "FirstColumn", "sortable": true, "filtered": true },
+        { "name": "SecondColumn", "sortable": true, "filtered": true },
+        { "name": "ThirdColumn", "filtered": true },
+        { "name": "FourthColumn", "editable": true }
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "order": 0,
+      "row": [
+        { "value": "Yes", "name": "row1-col1" },
+        { "value": 45, "name": "row1-col2" },
+        {
+          "value": {
+            "type": "select",
+            "values": [
+              { "label": "First value", "value": "1stValue", "selected": true },
+              { "label": "Second value", "value": "2ndValue" },
+              { "label": "Third value", "value": "3rdValue" }
+            ]
+          },
+          "name": "row1-col3"
+        },
+        {
+          "value": {
+            "type": "radio",
+            "values": [
+              { "label": "First value", "value": "1stValue" },
+              { "label": "Second value", "value": "2ndValue" },
+              { "label": "Third value", "value": "3rdValue", "selected": true }
+            ]
+          },
+          "name": "row1-col4"
+        }
+      ]
+    },
+    {
+      "order": 1,
+      "row": [
+        { "value": "No", "name": "row2-col1" },
+        { "value": 21, "name": "row2-col2" },
+        {
+          "value": {
+            "type": "select",
+            "values": [
+              { "label": "First value", "value": "1stValue" },
+              { "label": "Second value", "value": "2ndValue", "selected": true },
+              { "label": "Third value", "value": "3rdValue" }
+            ]
+          },
+          "name": "row2-col3"
+        },
+        {
+          "value": {
+            "type": "radio",
+            "values": [
+              { "label": "First value", "value": "1stValue", "selected": true },
+              { "label": "Second value", "value": "2ndValue" },
+              { "label": "Third value", "value": "3rdValue" }
+            ]
+          },
+          "name": "row2-col4"
+        }
+      ]
+    }
+  ]
+}
